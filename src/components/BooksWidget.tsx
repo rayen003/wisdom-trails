@@ -23,6 +23,8 @@ import bookThink from "@/assets/book-think.jpg";
 import bookInspired from "@/assets/book-inspired.jpg";
 import bookLeaders from "@/assets/book-leaders.jpg";
 import bookDeepwork from "@/assets/book-deepwork.jpg";
+import avatarJane from "@/assets/avatar-jane.jpg";
+import avatarMarcus from "@/assets/avatar-marcus.jpg";
 
 type HookIcon = "trending" | "briefcase" | "brain" | "users" | "sparkles";
 
@@ -46,8 +48,8 @@ const BOOKS: Book[] = [
     hookIcon: "trending",
     hookText: "Because you follow AI topics",
     likers: [
-      { name: "Sarah Chen", avatar: "", initials: "SC" },
-      { name: "Marcus Webb", avatar: "", initials: "MW" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
     ],
     likersExtra: 312,
   },
@@ -59,8 +61,8 @@ const BOOKS: Book[] = [
     hookIcon: "sparkles",
     hookText: "Popular in your network",
     likers: [
-      { name: "Priya Nair", avatar: "", initials: "PN" },
-      { name: "James Okafor", avatar: "", initials: "JO" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
     ],
     likersExtra: 84,
   },
@@ -72,8 +74,8 @@ const BOOKS: Book[] = [
     hookIcon: "brain",
     hookText: "Based on your interest in psychology",
     likers: [
-      { name: "Laura Bianchi", avatar: "", initials: "LB" },
-      { name: "Tom Reid", avatar: "", initials: "TR" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
     ],
     likersExtra: 509,
   },
@@ -85,8 +87,8 @@ const BOOKS: Book[] = [
     hookIcon: "briefcase",
     hookText: "Based on your Product Management skills",
     likers: [
-      { name: "Alex Kim", avatar: "", initials: "AK" },
-      { name: "Diana Russo", avatar: "", initials: "DR" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
     ],
     likersExtra: 47,
   },
@@ -98,8 +100,8 @@ const BOOKS: Book[] = [
     hookIcon: "users",
     hookText: "Trending in Leadership",
     likers: [
-      { name: "Chris Park", avatar: "", initials: "CP" },
-      { name: "Nina Müller", avatar: "", initials: "NM" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
     ],
     likersExtra: 221,
   },
@@ -111,8 +113,8 @@ const BOOKS: Book[] = [
     hookIcon: "trending",
     hookText: "Trending in Productivity",
     likers: [
-      { name: "Yuki Tanaka", avatar: "", initials: "YT" },
-      { name: "Ben Lawson", avatar: "", initials: "BL" },
+      { name: "Marcus Webb", avatar: avatarMarcus, initials: "MW" },
+      { name: "Sophie Marchetti", avatar: avatarJane, initials: "SM" },
     ],
     likersExtra: 178,
   },
